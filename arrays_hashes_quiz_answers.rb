@@ -1,4 +1,4 @@
-#A
+##A
 
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
@@ -25,3 +25,37 @@ stops.reverse
 for each_stop in stops
   puts each_stop
 end
+
+#---------------------------
+
+##B
+#1
+p users["Jonathan"][:twitter]
+#2
+p users["Erik"][:home_town]
+#3
+p users["Erik"][:favourite_numbers]
+#4
+p users["Avril"][:pets]["Colin"]
+#5
+p users["Erik"][:favourite_numbers][0]
+#6
+users["Erik"][:favourite_numbers].unshift(7)
+#7
+users["Erik"][:home_town].replace("Edinburgh")
+#8
+users["Erik"][:pets].merge("Fluffy" => :dog)
+#9
+#Don't know!
+
+#----------------------------
+
+##C
+
+#1
+united_kingdom[1][:capital].replace("Cardiff")
+#2
+#Don't know!
+#3
+#Also don't know
+#4
