@@ -20,5 +20,6 @@ def find_item(array_1, item)
     return false
 end
 
-def get_first_key
+def get_first_key(input_hash)
+  return input_hash.keys[0]
 end
